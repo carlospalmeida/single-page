@@ -12,11 +12,16 @@
     padding: 8px;    
 }
 
+.sub-titulo{
+    width: fit-content;
+    /* centralizar caixa */
+    margin: 0 auto;
+    /*  */
+}
 
-
-
-
-
+.cor{
+   background-color: rgb(29, 29, 29);
+}
 
 
 /* regra para id usa # */
@@ -26,4 +31,8 @@
     margin: 0 auto;
 }
 
+#banner-top .carousel-caption{
+    padding: 6px;
+    background-color: rgba(0, 0, 0, 0.45);
+}
 
