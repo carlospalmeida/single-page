@@ -52,11 +52,11 @@ fetch(URL_ESTADOS).then(response => response.json()).then(
 //Quando o campo estados for atualizado ,o campo sera preenchido
 estados.addEventListener('change', () => {
 
-    let url = `https://servicodados.ibge.gov.br/api/v1/localidades/estados/${estados.value}/municipios?orderBy=nome`
+     let url = `https://servicodados.ibge.gov.br/api/v1/localidades/estados/${estados.value}/municipios?orderBy=nome`
      //acresentar cidades no campo
      let cidades = document.getElementById('cidades')
      let options = '<option>Selecione uma cidade</option>'
-    fetch(url).then(response => response.json()).then(json => {
+     fetch(url).then(response => response.json()).then(json => {
 
         for (const i in json) {
             options += `<option value="${json[i].nome}">${json[i].nome}</option>`
@@ -74,4 +74,21 @@ estados.addEventListener('change', () => {
 
 
 })
+
+
+// Mostra a seta quando rolagem for maior que x
+
+const rolagem = ()=>{ 
+    const TELA = document.querySelector('html')
+    const seta = document.querySelector('.seta-sobe')
+    //console.log(TELA.scrollTop)
+    if(TELA.scrollTop > 600){
+        seta.style.display = 'block'
+    }else{
+        seta.style.display = 'none'
+    }
+}
+
+
+window.onscroll = ()=> rolagem()
 

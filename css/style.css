@@ -23,6 +23,26 @@
    background-color: rgb(29, 29, 29);
 }
 
+.seta-sobe{
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 6px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    color: #ffff;
+}
+
+.seta-sobe:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(243, 240, 240, 0.7);
+}
+
 
 /* regra para id usa # */
 

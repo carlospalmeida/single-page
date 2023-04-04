@@ -50,23 +50,23 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Serviços</a>
+                            <a class="nav-link active" href="#nossos-servicos">Serviços</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Planos</a>
+                            <a class="nav-link active" href="#nossos-planos">Planos</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Quem Somos</a>
+                            <a class="nav-link active" href="#nossa-equipe">Quem Somos</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Portifolio</a>
+                            <a class="nav-link active" href="#portifolio">Portifolio</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Contato</a>
+                            <a class="nav-link active" href="#cadastro">Contato</a>
                         </li>
                     </ul>
                 </div>
@@ -143,7 +143,7 @@
 
         <!-- Seção nossos serviços -->
 
-        <section id="nossos-servicos" class="mt-5 mb-2">
+        <section id="nossos-servicos" class="mt-5 pt-5 mb-2">
             <h2 data-aos="zoom-in-up" class="sub-titulo mb-5 border-bottom border-5 border-secondary">Nossos Serviços
             </h2>
 
@@ -226,7 +226,7 @@
 
 
         <!-- Seção NOSSOS PLANOS -->
-        <section id="nossos-planos" class="mt-5 mb-5">
+        <section id="nossos-planos" class="mt-5 pt-5 mb-5">
 
             <h2 data-aos="zoom-in-up" data-aos-duration="900"
                 class="sub-titulo border-bottom border-5 border-secondary">Nossos Planos</h2>
@@ -309,7 +309,7 @@
 
         <!-- Seção Equipe -->
 
-        <section id="nossa-equipe" class="mt-5 mb-2">
+        <section id="nossa-equipe" class="mt-5 pt-5 mb-2">
             <h2 data-aos="zoom-in-up" class="sub-titulo border-bottom border-5 border-secondary mb-3">Nossa Equipe</h2>
 
             <div class="container">
@@ -366,7 +366,7 @@
 
 
         <!-- lightbox -->
-        <section id="portifolio" class="mt-5 mb2">
+        <section id="portifolio" class="mt-5 pt-5 mb2">
             <h2 class="sub-titulo border-bottom border-5 border-secondary mb-3" data-aos="zoom-out-down"
                 data-aos-duration="600">Portifolio</h2>
 
@@ -405,7 +405,7 @@
 
 
         <!-- Seção CADASTRO -->
-        <section id="cadastro" class="mt-5 mb-2">
+        <section id="cadastro" class="mt-5 pt-5 mb-2">
 
             <h2 class="sub-titulo border-bottom border-5 border-secondary mb-3">Cadastre-se</h2>
 
@@ -480,24 +480,31 @@
                </div>
 
                 <!-- CAMPO DE ESTADO E CIDADE -->
+
                 <!-- ESTADOS -->
                <div class="mb-3">
                 <label for="estados" class="form-label">Em qual estado você reside:</label>
                 <select class="form-select form-select-lg" name="estados" id="estados">
-
                 </select>
                </div>
+
                <!-- CIDADES -->
                <div class="mb-3">
                 <label for="cidades" class="form-label">Em qual cidade você pertence:</label>
                 <select class="form-select form-select-lg" name="cidades" id="cidades">
-
                 </select>
                </div>
+
                <!-- FIM DO CAMPO DE ESTADO E CIDADE -->
+
+               <!-- Btn SUBMIT/enviar os dados para o back-end -->
+
+               <button type="submit" class="btn btn-primary">Enviar</button>
+
+               <!-- X -->
+
             </form>
 
-            
 
         </section>
         <!-- Final seção CADASTRO -->
@@ -511,36 +518,49 @@
 
 
 
-    <footer>
+    <footer class="p-5 mt-5 fundo-laranja text-light">
+        <!-- Mapa -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.7168508253067!2d-45.85890620000001!3d-23.1805322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4bc85e94dd05%3A0xdb4107c3fcb7621e!2sTiro%20de%20Guerra!5e0!3m2!1spt-BR!2sbr!4v1680630933718!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <br>
+        <!-- video -->
+        <iframe width="100%" height="600" src="https://www.youtube.com/embed/f5YbAq8FgbY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
     </footer>
 
+    
+    <a href="#" class="seta-sobe">
+        <i class="fa-sharp fa-solid fa-arrow-up"></i>
+    </a>
 
 
 
-    <!-- Js Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
-        crossorigin="anonymous"></script>
-    <!-- x -->
+    <!-- Aréa de javascripts -->
+
+        <!-- Js Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+            integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+            crossorigin="anonymous"></script>
+        <!-- x -->
 
 
-    <!-- jquerry  -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <!-- jquerry  -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
 
-    <!-- js LIGHTBOX -->
-    <script src="js/lightbox.min.js"></script>
+        <!-- js LIGHTBOX -->
+        <script src="js/lightbox.min.js"></script>
 
-    <!-- js do aos animation -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!-- js do aos animation -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <!-- Js personalizado -->
-    <script src="js/code.js"></script>
+        <!-- Js personalizado -->
+        <script src="js/code.js"></script>
 
+    <!-- X -->
 
 </body>
 
